@@ -19,7 +19,7 @@ const TransactionQRModal = ({ modalOpen, setModalOpen, userAddress, setQrCode })
     }
     useEffect(() => {
         const recipient = new PublicKey(userAddress)
-        const amount = new BigNumber("1")
+        const amount = ""
         const reference = Keypair.generate().publicKey
         const label = "TraCoin"
         const message = "Thanks for using TraCoin"

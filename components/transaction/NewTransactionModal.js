@@ -37,14 +37,14 @@ const NewTransactionModal = ({ modalOpen, setModalOpen, addTransaction }) => {
                         <label className="text-gray-300" htmlFor="receiver">
                             To:
                         </label>
-                        <input className="w-full pl-2 font-medium text-gray-600 placeholder-blue outline-none bg-[#ffd711]" id="receiver" name="receiver" type="text" placeholder="Name, $Cashtag, SMS, Email" value={receiver} onChange={(e) => setReceiver(e.target.value)} />
+                        <input className="w-full pl-2 font-medium text-gray-600 placeholder-blue outline-none bg-[#ffd711]" id="receiver" name="receiver" type="text" placeholder="Receiver Wallet Address" value={receiver} onChange={(e) => setReceiver(e.target.value)} />
                     </div>
 
                     <div className="flex rounded-lg border border-gray-200 p-4">
                         <label className="text-gray-300" htmlFor="transactionPurpose">
                             For:
                         </label>
-                        <input className="w-full pl-2 font-medium text-gray-600 placeholder-blue outline-none bg-[#ffd711]" id="transactionPurpose" name="transactionPurpose" type="text" placeholder="Dinner, Rent, etc." value={transactionPurpose} onChange={(e) => setTransactionPurpose(e.target.value)} />
+                        <input className="w-full pl-2 font-medium text-gray-600 placeholder-blue outline-none bg-[#ffd711]" id="transactionPurpose" name="transactionPurpose" type="text" placeholder="Name, Purpose..." value={transactionPurpose} onChange={(e) => setTransactionPurpose(e.target.value)} />
                     </div>
                 </div>
 
