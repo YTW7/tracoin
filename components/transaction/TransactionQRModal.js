@@ -42,7 +42,7 @@ const TransactionQRModal = ({ modalOpen, setModalOpen, userAddress, setQrCode })
         // Wait for the user to send the transaction
 
         const interval = setInterval(async () => {
-            console.log("waiting for transaction confirmation")
+            // console.log("waiting for transaction confirmation")
             try {
                 // Check if there is any transaction for the reference
                 const signatureInfo = await findReference(connection, reference, { finality: 'confirmed' })
@@ -60,7 +60,6 @@ const TransactionQRModal = ({ modalOpen, setModalOpen, userAddress, setQrCode })
                     { commitment: 'confirmed' }
                 )
 
-                console.log("confirmed, proceed with evil deeds")
 
                 const newID = (transactions.length + 1).toString()
                 const newTransaction = {
@@ -80,7 +79,7 @@ const TransactionQRModal = ({ modalOpen, setModalOpen, userAddress, setQrCode })
                     description: 'User sent you SOL through Phantom App!',
                     transactionDate: new Date(),
                     status: 'Completed',
-                    amount: amount,
+                    amount: 1,
                     source: '-',
                     identifier: '-',
                 };
