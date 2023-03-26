@@ -1,4 +1,4 @@
-*Track on-Chain transactions in a Human-Readable manner*
+**Track on-Chain transactions in a Human-Readable manner**
 
 # Tech Stack Used: 
 **Solana, Solana JS SDK, Solana Pay Library, NextJS, TailwindCSS, and Replit.**
@@ -9,7 +9,7 @@
 # Tracks Covered: 
 **Solana and Replit**
 
-![My Image](/banner.png)
+![My Image](public/banner.png)
 
 ## Getting Started
 
@@ -27,8 +27,8 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 # Snippets of My Project:
 
-![My Image](/ss1.png)
+![My Image](public/ss1.png)
 
-![My Image](/ss2.png)
+![My Image](public/ss2.png)
 
-![My Image](/ss3.png)
+![My Image](public/ss3.png)
